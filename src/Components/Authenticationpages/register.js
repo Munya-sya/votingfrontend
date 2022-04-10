@@ -15,7 +15,7 @@ export default function Register() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "http://localhost:4000/register",
+      url: "https://votingbacken.herokuapp.com/register",
       data: {
         email,
         password,
