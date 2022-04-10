@@ -27,7 +27,7 @@ class DataTable extends Component {
         window.location.reload(true);
         const configuration = {
             method: "delete",
-            url: "http://localhost:4000/polldelete",
+            url: "https://votingbacken.herokuapp.com/polldelete",
             data: {
                 choice,
             },
