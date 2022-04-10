@@ -31,7 +31,7 @@ class DataTable extends Component {
         let id = this.props.obj._id
         const configuration = {
             method: "put",
-            url: "http://localhost:4000/polledit",
+            url: "https://votingbacken.herokuapp.com/polledit",
             data: {
                 choice,
                 counts,
