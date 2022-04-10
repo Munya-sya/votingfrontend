@@ -7,7 +7,7 @@ export default class Users extends Component {
         this.state = { usersCollection: [] };
     }
     componentDidMount() {
-        axios.get('http://localhost:4000/getpolls')
+        axios.get('https://votingbacken.herokuapp.com/getpolls')
             .then(res => {
                 this.setState({ usersCollection: res.data });
             })
