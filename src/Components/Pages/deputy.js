@@ -9,7 +9,7 @@ export default class ViewPoll extends Component {
     }
 
         componentDidMount() {
-            axios.get('http://localhost:4000/edit/DeputySecretary')
+            axios.get('https://votingbacken.herokuapp.com/edit/DeputySecretary')
                 .then(res => {
                     this.setState({ usersCollection: res.data,
                     Id: res.data._id  });
