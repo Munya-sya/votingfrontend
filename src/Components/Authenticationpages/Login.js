@@ -17,7 +17,7 @@ export default function Login() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "http://localhost:4000/login",
+      url: "https://votingbacken.herokuapp.com/login",
       data: {
         email,
         password,
