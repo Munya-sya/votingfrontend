@@ -38,7 +38,7 @@ export default function CreatePoll() {
     
      const configuration = {
         method: "post",
-        url: "http://localhost:4000/pollcreate",
+        url: "https://votingbacken.herokuapp.com/pollcreate",
         data: {
           title,
           useremail,
